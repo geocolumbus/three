@@ -1,0 +1,52 @@
+body {
+    background-color: #c0c0c0;
+}
+
+.controls {
+    width: 500px;
+    margin: auto;
+    margin-top: 10px;
+    overflow: hidden;
+    position: absolute;
+    top: 350px;
+    left: 30px;
+    overflow:hidden;
+}
+
+.controls img {
+    margin-top: 10px;
+    margin-right: 10px;
+    border: 2px solid #909090;
+}
+
+.node-3d-1 {
+    width: 1200px;
+    height: 600px;
+    position: absolute;
+    top: 0px;
+    left: 30px;
+}
+/*
+.node-3d-1
+{
+    border: 1px solid red;
+}
+*/
+.text3D, .text3DButton {
+    position: relative;
+}
+
+.text3D {
+    width: 400px;
+    height: 60px;
+    padding: 5px;
+    font-size: 13pt;
+    display: block;
+}
+
+.text3DButton {
+    margin-top: 10px;
+    font-size: 14pt;
+    background-color: lightblue;
+    display: block;
+}

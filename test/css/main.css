@@ -1,0 +1,51 @@
+* {
+    font-family: Arial;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.left-side {
+    width: 45%;
+    margin-right: 0px;
+    float: left;
+    overflow: hidden;
+}
+
+.right-side {
+    width: 54%;
+    float: left;
+    overflow: hidden;
+}
+
+.test-container {
+    width: 100%;
+    height: 615px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.image-container {
+    width: 100px;
+    height: 100px;
+    padding: 6px;
+    border-radius: 8px;
+    background-color: #e0e0e0;
+    float: left;
+    margin-right: 10px;
+}
+
+.device-container {
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+}
+
+.clear {
+    clear: both;
+}
